@@ -1,5 +1,9 @@
 require("me.util").setup("nvim-treesitter.configs") {
-  ensure_installed = "all",
+  ensure_installed = {
+     "c",
+     "c++",
+     "html",
+  },
   sync_install = false,
   ignore_install = {},
   highlight = {
